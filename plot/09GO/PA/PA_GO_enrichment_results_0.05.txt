@@ -1,0 +1,30 @@
+ref	Accession	GO.Term	Namespace	universe.number	target.genes.number	total.hits.number	observed.Hits.number	pval	pvals.adj	score
+PA	GO:0009089	lysine biosynthetic process via diaminopimelate	biological_process	5703	189	8	3	0.001773907	1	2.751069214
+PA	GO:0006098	pentose-phosphate shunt	biological_process	5703	189	6	2	0.015008138	1	1.823673184
+PA	GO:0006081	cellular aldehyde metabolic process	biological_process	5703	189	1	1	0.033140452	1	1.479641567
+PA	GO:0044406	adhesion of symbiont to host	biological_process	5703	189	1	1	0.033140452	1	1.479641567
+PA	GO:0016998	cell wall macromolecule catabolic process	biological_process	5703	189	1	1	0.033140452	1	1.479641567
+PA	GO:1902022	L-lysine transport	biological_process	5703	189	1	1	0.033140452	1	1.479641567
+PA	GO:0009165	nucleotide biosynthetic process	biological_process	5703	189	1	1	0.033140452	1	1.479641567
+PA	GO:0009156	ribonucleoside monophosphate biosynthetic process	biological_process	5703	189	1	1	0.033140452	1	1.479641567
+PA	GO:0009116	nucleoside metabolic process	biological_process	5703	189	11	2	0.049359787	1	1.306626726
+PA	GO:0019867	outer membrane	cellular_component	5703	189	46	6	0.003799343	1	2.420291445
+PA	GO:0009279	cell outer membrane	cellular_component	5703	189	35	4	0.027437442	1	1.561656388
+PA	GO:0019843	rRNA binding	molecular_function	5703	189	5	3	0.000341094	0.768826299	3.467125681
+PA	GO:0046917	triphosphoribosyl-dephospho-CoA synthase activity	molecular_function	5703	189	1	1	0.033140452	1	1.479641567
+PA	GO:0017040	N-acylsphingosine amidohydrolase activity	molecular_function	5703	189	1	1	0.033140452	1	1.479641567
+PA	GO:0004591	oxoglutarate dehydrogenase (succinyl-transferring) activity	molecular_function	5703	189	1	1	0.033140452	1	1.479641567
+PA	GO:0001851	complement component C3b binding	molecular_function	5703	189	1	1	0.033140452	1	1.479641567
+PA	GO:0004872	receptor activity	molecular_function	5703	189	1	1	0.033140452	1	1.479641567
+PA	GO:0004134	4-alpha-glucanotransferase activity	molecular_function	5703	189	1	1	0.033140452	1	1.479641567
+PA	GO:0004739	pyruvate dehydrogenase (acetyl-transferring) activity	molecular_function	5703	189	1	1	0.033140452	1	1.479641567
+PA	GO:0004114	"3',5'-cyclic-nucleotide phosphodiesterase activity"	molecular_function	5703	189	1	1	0.033140452	1	1.479641567
+PA	GO:0004563	beta-N-acetylhexosaminidase activity	molecular_function	5703	189	1	1	0.033140452	1	1.479641567
+PA	GO:0016628	"oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor"	molecular_function	5703	189	1	1	0.033140452	1	1.479641567
+PA	GO:0047004	UDP-N-acetylglucosamine 6-dehydrogenase activity	molecular_function	5703	189	1	1	0.033140452	1	1.479641567
+PA	GO:0004664	prephenate dehydratase activity	molecular_function	5703	189	1	1	0.033140452	1	1.479641567
+PA	GO:0017057	6-phosphogluconolactonase activity	molecular_function	5703	189	1	1	0.033140452	1	1.479641567
+PA	GO:0008780	acyl-[acyl-carrier-protein]-UDP-N-acetylglucosamine O-acyltransferase activity	molecular_function	5703	189	1	1	0.033140452	1	1.479641567
+PA	GO:0015171	amino acid transmembrane transporter activity	molecular_function	5703	189	1	1	0.033140452	1	1.479641567
+PA	GO:0004749	ribose phosphate diphosphokinase activity	molecular_function	5703	189	1	1	0.033140452	1	1.479641567
+PA	GO:0008837	diaminopimelate epimerase activity	molecular_function	5703	189	1	1	0.033140452	1	1.479641567

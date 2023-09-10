@@ -1,0 +1,9 @@
+ref	Accession	GO.Term	Namespace	universe.number	target.genes.number	total.hits.number	observed.Hits.number	pval	pvals.adj	score
+Ecoli	GO:0032445	fructose import	P	4550	95	8	2	0.01112901	1	1.953543455
+Ecoli	GO:1902600	proton transmembrane transport	P	4550	95	46	4	0.014897811	1	1.82687754
+Ecoli	GO:0009405	pathogenesis	P	4550	95	10	2	0.01740652	1	1.759288041
+Ecoli	GO:0009052	"pentose-phosphate shunt, non-oxidative branch"	P	4550	95	12	2	0.024847509	1	1.604717149
+Ecoli	GO:0006085	acetyl-CoA biosynthetic process	P	4550	95	2	1	0.041326798	1	1.383768242
+Ecoli	GO:0006768	biotin metabolic process	P	4550	95	2	1	0.041326798	1	1.383768242
+Ecoli	GO:0006950	response to stress	P	4550	95	2	1	0.041326798	1	1.383768242
+Ecoli	GO:0061077	chaperone-mediated protein folding	P	4550	95	38	3	0.043941717	1	1.357122975

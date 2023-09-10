@@ -1,0 +1,42 @@
+#####start
+cutadapt -f fastq -n 1 -e 0.1 -O 2 -m 15 -a ATCACGAGATCGGAAGAGCACACGTCT -A GATCGTCGGACTGTAGAACTCTGAAC -o E-coli-OED-1.1.fastq -p E-coli-OED-1.2.fastq E-coli-OED-1_combined_R1.fastq E-coli-OED-1_combined_R2.fastq -j 30
+
+#rm PCR duplicate
+seqkit rmdup -s E-coli-OED-1.1.fastq -o E-coli-OED-1.1.fq.gz -d E-coli-OED-1.1.duplicated.fq.gz -D E-coli-OED-1.1.duplicated.txt -j 5
+
+#rm NNNNN
+cutadapt -u 5 -o E-coli-OED-1.1_rmN1.fastq E-coli-OED-1.1.fq -j 40
+cutadapt -u -5 -o E-coli-OED-1.1_rmN2.fastq E-coli-OED-1.1_rmN1.fastq -j 40
+
+#mapping
+tophat2 --solexa-quals -p 20 -g 2 -o E-coli-OED-1.1.rmN2 --no-novel-juncs -G Ecoli_K12_MG1655.gff Ecoli_K12_MG1655.bowtie E-coli-OED-1.1_rmN2.fastq
+
+##rm revdir
+Nm_20200610_filter_revdir_strict.R
+
+#samtools
+samtools sort accepted_hits.bam -o E-coli-OED-1.1.sorted.bam
+samtools index E-coli-OED-1.1.sorted.bam
+
+##coverage
+bedtools genomecov -d -ibam E-coli-OED-1.1.sorted.bam -g Ecoli.genome >E-coli-OED-1.1.sorted_d.txt  
+bedtools genomecov -dz -ibam E-coli-OED-1.1.sorted.bam -g Ecoli.genome >E-coli-OED-1.1.sorted_dz.txt 
+bedtools genomecov -dz -3 -ibam E-coli-OED-1.1.sorted.bam -g Ecoli.genome >E-coli-OED-1.1.sorted_dz_3.txt
+
+
+#parameter calculating
+Nm_20200702_CalculateParameters.R
+
+#cutoff
+Nm_20200630_cutoff.R
+
+
+
+
+
+
+
+
+
+
+
